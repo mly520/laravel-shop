@@ -1,7 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="8421a8d8-a0cf-4772-9e53-3ad791335b19" name="Default Changelist" comment="" />
+    <list default="true" id="8421a8d8-a0cf-4772-9e53-3ad791335b19" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/layouts/_header.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/layouts/_header.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/routes/web.php" beforeDir="false" afterPath="$PROJECT_DIR$/routes/web.php" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -10,6 +14,9 @@
   <component name="ComposerSettings" doNotAsk="true" synchronizationState="SYNCHRONIZE">
     <pharConfigPath>$PROJECT_DIR$/composer.json</pharConfigPath>
     <execution />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="PhpWorkspaceProjectConfiguration">
     <include_path>
@@ -149,7 +156,8 @@
       <option name="presentableId" value="Default" />
       <updated>1606443380287</updated>
       <workItem from="1606443381332" duration="185000" />
-      <workItem from="1606443587840" duration="2555000" />
+      <workItem from="1606443587840" duration="3519000" />
+      <workItem from="1606704147651" duration="542000" />
     </task>
     <servers />
   </component>
@@ -157,9 +165,10 @@
     <option name="version" value="3" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="561" y="268" width="670" height="676" key="search.everywhere.popup" timestamp="1606447175284">
-      <screen x="0" y="23" width="1792" height="1097" />
+    <state x="601" y="259" width="718" height="652" key="search.everywhere.popup" timestamp="1606704731545">
+      <screen x="0" y="23" width="1920" height="1057" />
     </state>
     <state x="561" y="268" width="670" height="676" key="search.everywhere.popup/0.23.1792.1097@0.23.1792.1097" timestamp="1606447175284" />
+    <state x="601" y="259" width="718" height="652" key="search.everywhere.popup/1920.-17.1792.1097/0.23.1920.1057@0.23.1920.1057" timestamp="1606704731545" />
   </component>
 </project>
