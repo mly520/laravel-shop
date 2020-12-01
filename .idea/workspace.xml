@@ -8,6 +8,7 @@
       <change beforePath="$PROJECT_DIR$/public/mix-manifest.json" beforeDir="false" afterPath="$PROJECT_DIR$/public/mix-manifest.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/resources/sass/app.scss" beforeDir="false" afterPath="$PROJECT_DIR$/resources/sass/app.scss" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/resources/views/products/index.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/products/index.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/routes/web.php" beforeDir="false" afterPath="$PROJECT_DIR$/routes/web.php" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -151,6 +152,7 @@
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="nodejs_package_manager_path" value="npm" />
+    <property name="settings.editor.selected.configurable" value="reference.settingsdialog.IDE.editor.colors.Color Scheme Font" />
     <property name="ts.external.directory.path" value="$APPLICATION_HOME_DIR$/plugins/JavaScriptLanguage/jsLanguageServicesImpl/external" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
@@ -171,7 +173,7 @@
       <workItem from="1606443381332" duration="185000" />
       <workItem from="1606443587840" duration="3519000" />
       <workItem from="1606704147651" duration="6559000" />
-      <workItem from="1606726277180" duration="12426000" />
+      <workItem from="1606726277180" duration="13581000" />
     </task>
     <servers />
   </component>
@@ -183,13 +185,18 @@
       <screen x="0" y="23" width="1920" height="1057" />
     </state>
     <state x="620" y="359" key="#com.intellij.fileTypes.FileTypeChooser/1920.-17.1792.1097/0.23.1920.1057@0.23.1920.1057" timestamp="1606723647586" />
+    <state x="-1009" y="610" key="SettingsEditor" timestamp="1606811971205">
+      <screen x="-1080" y="23" width="1080" height="1897" />
+    </state>
+    <state x="-1009" y="610" key="SettingsEditor/-1080.23.1080.1897/0.23.2560.1417@-1080.23.1080.1897" timestamp="1606811971205" />
     <state x="641" y="300" width="637" height="502" key="find.popup" timestamp="1606704908402">
       <screen x="0" y="23" width="1920" height="1057" />
     </state>
     <state x="641" y="300" width="637" height="502" key="find.popup/1920.-17.1792.1097/0.23.1920.1057@0.23.1920.1057" timestamp="1606704908402" />
-    <state x="801" y="339" width="958" height="875" key="search.everywhere.popup" timestamp="1606810300845">
-      <screen x="0" y="23" width="2560" height="1417" />
+    <state x="-742" y="446" width="670" height="1172" key="search.everywhere.popup" timestamp="1606812902272">
+      <screen x="-1080" y="23" width="1080" height="1897" />
     </state>
+    <state x="-742" y="446" width="670" height="1172" key="search.everywhere.popup/-1080.23.1080.1897/0.23.2560.1417@-1080.23.1080.1897" timestamp="1606812902272" />
     <state x="561" y="268" width="670" height="676" key="search.everywhere.popup/0.23.1792.1097@0.23.1792.1097" timestamp="1606447175284" />
     <state x="801" y="339" width="958" height="875" key="search.everywhere.popup/0.23.2560.1417@0.23.2560.1417" timestamp="1606810300845" />
     <state x="601" y="259" width="718" height="652" key="search.everywhere.popup/1920.-17.1792.1097/0.23.1920.1057@0.23.1920.1057" timestamp="1606724037112" />
