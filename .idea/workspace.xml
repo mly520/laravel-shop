@@ -2,11 +2,28 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8421a8d8-a0cf-4772-9e53-3ad791335b19" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/-" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/laravel-shop.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/laravel-shop.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/php.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/php.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/app/Models/User.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Models/User.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/[0]," beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/[1]," beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/[2]," beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/app/Http/Controllers/UserAddressesController.php" beforeDir="false" afterPath="$PROJECT_DIR$/app/Http/Controllers/UserAddressesController.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/composer.json" beforeDir="false" afterPath="$PROJECT_DIR$/composer.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/composer.lock" beforeDir="false" afterPath="$PROJECT_DIR$/composer.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/config/app.php" beforeDir="false" afterPath="$PROJECT_DIR$/config/app.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/resources/views/layouts/_header.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/layouts/_header.blade.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/name," beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/phoneNumber," beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/postcode," beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/js/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/public/js/app.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/mix-manifest.json" beforeDir="false" afterPath="$PROJECT_DIR$/public/mix-manifest.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/js/app.js" beforeDir="false" afterPath="$PROJECT_DIR$/resources/js/app.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/resources/views/user_addresses/index.blade.php" beforeDir="false" afterPath="$PROJECT_DIR$/resources/views/user_addresses/index.blade.php" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/routes/web.php" beforeDir="false" afterPath="$PROJECT_DIR$/routes/web.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/yarn.lock" beforeDir="false" afterPath="$PROJECT_DIR$/yarn.lock" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -127,6 +144,8 @@
       <path value="$PROJECT_DIR$/vendor/laravel/framework" />
       <path value="$PROJECT_DIR$/vendor/laravel/tinker" />
       <path value="$PROJECT_DIR$/vendor/laravel/ui" />
+      <path value="$PROJECT_DIR$/vendor/overtrue/laravel-lang" />
+      <path value="$PROJECT_DIR$/vendor/laravel-lang/lang" />
     </include_path>
   </component>
   <component name="ProjectId" id="1kr0PmLIBysdTa6cFo4fL14qGoG" />
@@ -135,12 +154,14 @@
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="nodejs_package_manager_path" value="npm" />
+    <property name="ts.external.directory.path" value="$APPLICATION_HOME_DIR$/plugins/JavaScriptLanguage/jsLanguageServicesImpl/external" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RunManager">
@@ -159,7 +180,8 @@
       <updated>1606443380287</updated>
       <workItem from="1606443381332" duration="185000" />
       <workItem from="1606443587840" duration="3519000" />
-      <workItem from="1606704147651" duration="4896000" />
+      <workItem from="1606704147651" duration="6559000" />
+      <workItem from="1606726277180" duration="5904000" />
     </task>
     <servers />
   </component>
@@ -167,14 +189,19 @@
     <option name="version" value="3" />
   </component>
   <component name="WindowStateProjectService">
+    <state x="620" y="359" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1606723647586">
+      <screen x="0" y="23" width="1920" height="1057" />
+    </state>
+    <state x="620" y="359" key="#com.intellij.fileTypes.FileTypeChooser/1920.-17.1792.1097/0.23.1920.1057@0.23.1920.1057" timestamp="1606723647586" />
     <state x="641" y="300" width="637" height="502" key="find.popup" timestamp="1606704908402">
       <screen x="0" y="23" width="1920" height="1057" />
     </state>
     <state x="641" y="300" width="637" height="502" key="find.popup/1920.-17.1792.1097/0.23.1920.1057@0.23.1920.1057" timestamp="1606704908402" />
-    <state x="601" y="259" width="718" height="652" key="search.everywhere.popup" timestamp="1606722608697">
-      <screen x="0" y="23" width="1920" height="1057" />
+    <state x="801" y="339" width="958" height="875" key="search.everywhere.popup" timestamp="1606793604524">
+      <screen x="0" y="23" width="2560" height="1417" />
     </state>
     <state x="561" y="268" width="670" height="676" key="search.everywhere.popup/0.23.1792.1097@0.23.1792.1097" timestamp="1606447175284" />
-    <state x="601" y="259" width="718" height="652" key="search.everywhere.popup/1920.-17.1792.1097/0.23.1920.1057@0.23.1920.1057" timestamp="1606722608697" />
+    <state x="801" y="339" width="958" height="875" key="search.everywhere.popup/0.23.2560.1417@0.23.2560.1417" timestamp="1606793604524" />
+    <state x="601" y="259" width="718" height="652" key="search.everywhere.popup/1920.-17.1792.1097/0.23.1920.1057@0.23.1920.1057" timestamp="1606724037112" />
   </component>
 </project>
