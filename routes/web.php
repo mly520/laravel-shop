@@ -32,4 +32,6 @@ Route::group(['middleware' => ['auth', 'verified']], function() {
     // 产品相关
     Route::get('products', 'ProductsController@index')->name('products.index');
     Route::get('products/{product}', 'ProductsController@show')->name('products.show');
+    Route::post('products/{product}/favorite', 'ProductsController@favor')->name('products.favor');
+    Route::delete('products/{product}/favorite', 'ProductsController@disfavor')->name('products.disfavor');
 });
