@@ -28,6 +28,7 @@
                         </a>
                         <div class="dropdown-menu" aria-labelledby="navbarDropdown">
                             <a href="{{ route('user_addresses.index') }}" class="dropdown-item">收货地址</a>
+                            <a href="{{ route('products.favorites') }}" class="dropdown-item">我的收藏</a>
                             <a class="dropdown-item" id="logout" href="#"
                                onclick="event.preventDefault();document.getElementById('logout-form').submit();">退出登录</a>
                             <form id="logout-form" action="{{ route('logout') }}" method="POST" style="display: none;">
@@ -35,7 +36,7 @@
                             </form>
                         </div>
                     </li>
-            @endguest
+                @endguest
             <!-- 登录注册链接结束 -->
             </ul>
         </div>
