@@ -25,6 +25,7 @@ class Kernel extends ConsoleKernel
     protected function schedule(Schedule $schedule)
     {
         // $schedule->command('inspire')->hourly();
+        $schedule->exec('/bin/bash /shared/httpd/laravel-shop/queue.sh')->everyMinute();
     }
 
     /**
