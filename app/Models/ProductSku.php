@@ -12,4 +12,33 @@ class ProductSku extends Model
     {
         return $this->belongsTo(Product::class);
     }
+
+    /**
+     * 删减库存
+     * @param $amount
+     * @return mixed
+     */
+    public function decreaseStock($amount)
+    {
+        if ($amount < 0) {
+            throw new InternalException('减库存不可小于0');
+        }
+
+        // 重要：decrement 自减 避免同时更新
+        return $this->where('id', $this->id)->where('stock', '>=', $amount)->decrement('stock', $amount);
+    }
+
+    /**
+     * 添加库存
+     * @param $amount
+     */
+    public function addStock($amount)
+    {
+        if ($amount < 0) {
+            throw new InternalException('加库存不可小于0');
+        }
+
+        // 重要：increment 自增 避免同时更新
+        $this->increment('stock', $amount);
+    }
 }
