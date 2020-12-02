@@ -3,10 +3,17 @@
 namespace App\Http\Controllers;
 
 use App\Http\Requests\AddCartRequest;
+use App\Http\Requests\Request;
 use App\Models\CartItem;
+use App\Models\ProductSku;
 
 class CartController extends Controller
 {
+    /**
+     * 添加商品到购物车 API
+     * @param AddCartRequest $request
+     * @return array
+     */
     public function add(AddCartRequest $request)
     {
         $user   = $request->user();
@@ -28,6 +35,31 @@ class CartController extends Controller
             $cart->productSku()->associate($skuId);
             $cart->save();
         }
+
+        return [];
+    }
+
+    /**
+     * 查看购物车
+     * @param Request $request
+     * @return \Illuminate\Contracts\Foundation\Application|\Illuminate\Contracts\View\Factory|\Illuminate\View\View
+     */
+    public function index(Request $request)
+    {
+        $cartItems = $request->user()->cartItems()->with(['productSku.product'])->get();
+
+        return view('cart.index', ['cartItems' => $cartItems]);
+    }
+
+    /**
+     * 移除购物车
+     * @param ProductSku $sku
+     * @param Request $request
+     * @return array
+     */
+    public function remove(ProductSku $sku, Request $request)
+    {
+        $request->user()->cartItems()->where('product_sku_id', $sku->id)->delete();
 
         return [];
     }
