@@ -48,3 +48,12 @@ Route::group(['middleware' => ['auth', 'verified']], function() {
 // 产品相关
 Route::get('products', 'ProductsController@index')->name('products.index');
 Route::get('products/{product}', 'ProductsController@show')->name('products.show');
+
+
+Route::get('alipay', function() {
+    return app('alipay')->web([
+        'out_trade_no' => time(),
+        'total_amount' => '1',
+        'subject' => 'test subject - 测试',
+    ]);
+});
