@@ -6,6 +6,7 @@ use App\Exceptions\InvalidRequestException;
 use App\Models\Order;
 use Carbon\Carbon;
 use Illuminate\Http\Request;
+use App\Events\OrderPaid;
 
 class PaymentController extends Controller
 {
@@ -30,7 +31,8 @@ class PaymentController extends Controller
     public function alipayReturn()
     {
         try {
-            app('alipay')->verify();
+            $data = app('alipay')->verify();
+            \Log::debug('1 $data', $data->all());
         } catch (\Exception $e) {
             return view('pages.error', ['msg' => '数据不正确']);
         }
@@ -68,6 +70,12 @@ class PaymentController extends Controller
 
         \Log::debug('3 $order', $order->toArray());
 
+        $this->afterPaid($order);
         return app('alipay')->success();
+    }
+
+    protected function afterPaid(Order $order)
+    {
+        event(new OrderPaid($order));
     }
 }
