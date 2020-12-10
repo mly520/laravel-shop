@@ -49790,8 +49790,8 @@ Vue.component('user-addresses-create-and-edit', {
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-__webpack_require__(/*! /shared/httpd/laravel-shop/resources/js/app.js */"./resources/js/app.js");
-module.exports = __webpack_require__(/*! /shared/httpd/laravel-shop/resources/sass/app.scss */"./resources/sass/app.scss");
+__webpack_require__(/*! /Users/zero/Projects/code/laravel-shop/resources/js/app.js */"./resources/js/app.js");
+module.exports = __webpack_require__(/*! /Users/zero/Projects/code/laravel-shop/resources/sass/app.scss */"./resources/sass/app.scss");
 
 
 /***/ })
